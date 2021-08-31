@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background: url('http://avatars.mds.yandex.net/get-ott/2419418/2a0000017622aaacf4f8b0aa55d542d7deb4/1344x756') center/ cover;
+    height: 115vh;
+    width: 100%;
+}
+
+.signout{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    padding: 10px 20px;
+    border-radius: 60px;
+    border: 0;
+    background: rgba(95, 61, 42, 0.61);
+    color: silver;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.signout:hover{
+    background: rgb(38, 167, 218);
+    color: white;
+}
+
+
+
+.card-image{
+    height: 100%;
+    width: 100%;
+}
+
+.card-image img{
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    object-fit: cover;
+}
+
+.card-body p{
+    display: none;
+}
+
+.card:hover img{
+    height: 85%;
+    transition: 0.3s;
+}
+.card:hover .card-body p{
+    transition: 1s;
+    display: block;
+}
